@@ -1,0 +1,54 @@
+body{
+    background-image: url('assets/images/29nhJr.png');
+    background-size: cover;
+}
+.divContainerForm{
+    top: 50%;
+    display: block;
+    position: absolute;
+    left: 50%;
+    margin: 0 !important;
+    transform: translate(-50%, -50%);
+    padding: 50px;
+    box-shadow: 0px 0px 10px 0px #ccc;
+    border-radius: 50px;
+    background-color: #f4f6f9;
+}
+.divInnerContainerForm{
+    margin-top: 40px;
+    padding-top: 90px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.divContainerForm img.user-center {
+    position: absolute;
+    top: -15%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+}
+.socialoption{
+    display: flex;
+    padding: 20px 0;
+}
+.socialoption hr{
+    width: 50%;
+}
+p{
+    margin-bottom: 0;
+}
+.socialoption p{
+    padding: 0 10px;
+}
+nav p{
+    color: #fff;
+}
+img#profileDisplay {
+    width: 200px;
+    height: 200px;
+}
+.userTable img{
+    width: 100px;
+    height: 100px;
+}
